@@ -8,6 +8,9 @@ body{
 
 }
 
+p{
+    font-size: 1.3rem;
+}
 h1{
     margin-top: 0;
     font-family: 'Sacramento', cursive;
@@ -30,12 +33,22 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 a{
     color: #11999E;
 }
 
+hr{
+    border-style: none;
+    border-top-style:dotted;
+    border-color:grey;
+    border-width: 5px;
+    width: 5%;
+}
 
 /*******Class elements*********/
 
@@ -43,7 +56,7 @@ a{
     background-color: #DAB88B;
     position: relative;
     padding-top: 100px;
-
+    padding-bottom: 550px;
 }
 
 .middle-container{
@@ -51,6 +64,12 @@ a{
 }
 
 .bottom-container{
+    background-color: #66BFBF;
+    margin-bottom: 0;
+    margin: 100px auto 0px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
 
 }
 
@@ -65,6 +84,10 @@ a{
 }
 
 .mountain-main{
+    position:absolute;
+    bottom: 0;
+    left: 42rem;
+
 
 }
 
@@ -73,4 +96,83 @@ a{
     bottom: 300px;
     left: 300px;
 }
+
+.profile{
+    padding: 50px ;
+}
+
+.skills{
+    padding-top: 50px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.mag-image{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+
+
+.think-image{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.bottom-footer-name{
+    margin-bottom: 0;
+}
+
+.footer-link{
+    font-size: 1.2rem;
+}
+
+.contact-me{
+    padding-top: 50px;
+}
+
+.contact-me-content{
+    padding-bottom: 50px;
+
+}
+
+.bottom-footer-name{
+    color: white;
+}
+/********for button********/
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }  
+
 /*******ID elements*********/
