@@ -1,0 +1,21 @@
+
+/* tags */
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+/* class */
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+/* id */
+#title{
+    background-color: #ff4c68;
+}
