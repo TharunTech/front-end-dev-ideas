@@ -65,11 +65,25 @@ body {
 /* tile-image */
 
 .title-img {
-    width: 20%;
-    bottom: -50px;
+    width: 30%;
     right: 25%;
     transform: rotate(25deg);
     position: absolute;
+}
+
+@media (max-width:1298px){
+
+
+    #title{
+        text-align: center;
+
+    }
+
+    .title-img{
+        position: static;
+        width: 100%;
+        transform: rotate(0);
+    }
 }
 
 .feature-boxes {
