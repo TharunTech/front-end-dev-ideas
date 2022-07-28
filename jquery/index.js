@@ -11,7 +11,7 @@
 
 // $("h1").on("click",function(){
 //     $("h1").css("color","purple");
-// })
+// })//to change color on click
 
 $("button").on("click",function(){
     $("h1").animate({margin:"20%"});
