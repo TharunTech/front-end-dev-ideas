@@ -4,4 +4,15 @@
 //     $("h1").css("color","red");
 // })
 
-$("h1").html("<em>heloooo</em>")
+// $(document).keypress(function(event){
+//     $("h1").text(event.key);
+
+// })
+
+// $("h1").on("click",function(){
+//     $("h1").css("color","purple");
+// })
+
+$("button").on("click",function(){
+    $("h1").animate({margin:"20%"});
+})
